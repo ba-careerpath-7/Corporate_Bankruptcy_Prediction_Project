@@ -1,2 +1,3 @@
 # Corporate-Bankruptcy-Prediction-Project-
-A company bankruptcy project focused on classification machine learning models. 
+
+Corporate Bankruptcy Project from resume. 
