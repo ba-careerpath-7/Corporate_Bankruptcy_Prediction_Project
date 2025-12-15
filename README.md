@@ -5,7 +5,7 @@ Corporate Bankruptcy Project from resume.
 
 
 
-# ⭐ Overview:
+# ⭐ Introduction from the Project:
 
 Hello guys!
 
