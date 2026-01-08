@@ -4,10 +4,10 @@ Corporate Bankruptcy Project from resume.
 
 
 
-**Overview:**
+**⭐Overview:**
 Predicted high-risk companies using financial indicators and contextual historical bankruptcy data. Provided actionable insights to inform risk analysis strategies.
 
-**Features:**
+**🎨Features:**
 
 * Evaluated 95 financial indicators to flag potential bankruptcies.
 
