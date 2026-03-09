@@ -17,5 +17,5 @@ Predicted high-risk companies using financial indicators and contextual historic
 
 * Technologies: Python, Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
 
-**💡 Highlight Discovery:** 
+## 💡 Highlight Discovery:
 Financial Stability Map: Utilized 3D PCA to project 95 financial indicators into a visual "Risk Map." Identified a dense Stability Cluster of healthy firms and a specific Danger Zone (defined by negative PC1 values) where nearly all bankruptcies occur, allowing for immediate risk screening.
