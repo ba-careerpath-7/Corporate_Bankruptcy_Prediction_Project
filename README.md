@@ -1,4 +1,4 @@
-# 👔 Corporate_Bankruptcy_Prediction_Project
+# 👔 Corporate Bankruptcy Prediction Project
  
 
 
