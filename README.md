@@ -1,21 +1,40 @@
-# Corporate_Bankruptcy_Prediction_Project
-
-Corporate Bankruptcy Project from resume. 
-
+# 👔 Corporate_Bankruptcy_Prediction_Project
+ 
 
 
-**⭐Overview:**
-Predicted high-risk companies using financial indicators and contextual historical bankruptcy data. Provided actionable insights to inform risk analysis strategies.
+---
 
-**🎨Features:**
+## 1. ⭐ What is this _____ Project about?
 
-* Evaluated 95 financial indicators to flag potential bankruptcies.
 
-* Contextualized predictions with historical cases (e.g., Blockbuster, Toys ‘R’ Us).
+---
 
-* Produced interpretable results for business risk management.
+## 2. 💵 The Business Problem: ______________
 
-* Technologies: Python, Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
 
-## 💡 Highlight Discovery:
-Financial Stability Map: Utilized 3D PCA to project 95 financial indicators into a visual "Risk Map." Identified a dense Stability Cluster of healthy firms and a specific Danger Zone (defined by negative PC1 values) where nearly all bankruptcies occur, allowing for immediate risk screening.
+---
+## 3. 💡 Key Insights and Final Conclusions
+
+
+---
+## 4. 📔 The Methodology of what I did: 
+
+### Firstly, I did exploratory data analysis.
+
+Plots of predictor variables against response variables were made.
+Additionally, predictor variables against other predictor variables were made.
+
+### Secondly, ________________________________ were created.
+  
+* **Stack:** Python (NumPy, pandas, matplotlib, seaborn, scikit-learn, XGBoost, plotly, SciPy)
+
+### Thirdly, I tried to gather insights about _____________________.
+
+For a refresher, check them out at [point 3!](#3--key-insights-and-final-conclusions) 
+
+
+---
+## 5. 💻 Technical Log
+
+
+
