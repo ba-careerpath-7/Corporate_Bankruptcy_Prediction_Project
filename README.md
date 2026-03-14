@@ -51,6 +51,10 @@ Using 3D PCA plots, I successfully visualized a "Safe Zone" and a "Danger Zone,"
 [insert some 3D PCA plots here]
 
 
+![image alt](https://github.com/ba-careerpath-7/Corporate_Bankruptcy_Prediction_Project/blob/c2cb2a6b34e36732b2bf942918c3855550596656/github_bank_1.PNG)
+
+![image alt](https://github.com/ba-careerpath-7/Corporate_Bankruptcy_Prediction_Project/blob/c2cb2a6b34e36732b2bf942918c3855550596656/github_bank_2.PNG)
+
 
 **1. The Stability Cluster (The Safe Zone):**
 
@@ -88,12 +92,17 @@ XGBoost did a good job of predicting bankrupt companies, but it is not perfect.
 
 [Inser bar plot of all classification models]
 
+![image alt](https://github.com/ba-careerpath-7/Corporate_Bankruptcy_Prediction_Project/blob/c2cb2a6b34e36732b2bf942918c3855550596656/github_bank_3.PNG)
+
 
 [insert the confusion matrix plot]
+
+![image alt](https://github.com/ba-careerpath-7/Corporate_Bankruptcy_Prediction_Project/blob/c2cb2a6b34e36732b2bf942918c3855550596656/github_bank_4.PNG)
 
 
 [insert pr auc plot]
 
+![image alt](https://github.com/ba-careerpath-7/Corporate_Bankruptcy_Prediction_Project/blob/c2cb2a6b34e36732b2bf942918c3855550596656/github_bank_5.PNG)
 
 
 ### The Human Element:
