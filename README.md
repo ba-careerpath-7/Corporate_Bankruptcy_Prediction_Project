@@ -98,43 +98,20 @@ XGBoost has the bigges PR-AUC score.
 **📊 Confusion Matrix of XGBoost's results:**
 ![image alt](https://github.com/ba-careerpath-7/Corporate_Bankruptcy_Prediction_Project/blob/c2cb2a6b34e36732b2bf942918c3855550596656/github_bank_4.PNG)
 
+* Only 44 companies are bankrupt. XGBoost only predicted 22 companies as bankrupt correctly.
+
+* XGBoost flagged 50 companies as bankrupt, but only 22 companies are actually bankrupt.
+
+* At first, this looks inefficient, but recall that only about 3% of companies are bankrupt.
+
+* In finance, missing bankruptices are more costly than false alarms, so it is okay if we have false alarms.
 
 **📊 PR-AUC plot of XGBoost and baseline value:**
 ![image alt](https://github.com/ba-careerpath-7/Corporate_Bankruptcy_Prediction_Project/blob/c2cb2a6b34e36732b2bf942918c3855550596656/github_bank_5.PNG)
 
----
-## ❗ PR-AUC Score Summary
-
-PR-AUC score measures the trade-off between Precision (of all firms we called bankrupt, how many were ACTUALLY bankrupt?) and Recall (of all the firms that actually went bankrupt, how many did we CATCH?) across different decision thresholds.
+## How to read the Precision Recall Curve
 
 PR-AUC scores gives scenarios were if the Precision value is high, then the Recall value will be low.
-
-### PR-AUC intuition:
-
-**Think of it like a Security Checkpoint at an airport:** 
-
-1. High Precision (The "Super Strict" Setting)
-
-The security team only stops someone if they are certain they have a prohibited item.
-
-Precision is High: When they stop someone, they are right 100% of the time. No innocent people are delayed.
-
-Recall is Low: Because they are being so picky they might miss a few clever people who hid items well. They did not catch everyone.
-
-2. High Recall (The "Better Safe than Sorry" Setting)
-
-The security team stops anyone who looks even slightly suspicious, even people wearing bulky jackets.
-
-Recall is High: They catch every single prohibited item. Nothing gets through.
-
-Precision is Low: They end up stopping 50 innocent people for every 1 actual catch. They are "wrong" most of the time when they raise an alarm.
-
-* Anyone who wants to predict bankrupt firms would tend to rely on high recall. No one wants to invest in possible bankrupt companies, why take the risk?
-
-* If someone wants the most optimal PR-AUC score, they should select the area or tip of curve that is near the top right. This contains the best combination of precision and recall values!
-
-
-## How to read the Precision Recall Curve
 
 A high curve in the top right part of the plot implies that there is both high precision and recall. This results in a bigger shaded area. We want models that have big areas since the area represents the PR-AUC score.
 
@@ -142,10 +119,9 @@ Conversely, a low curve in the bottom left part of the plot implies that there i
 
 Since the PR-AUC score was 0.456, it makes sense that we do not see a high or low curve.
 
-We have evidence that our XGBoost model performs reasonably well at predicting bankrupt companies.  For context, the baseline precision for a model that predicts randomly is about 0.03 since about 3% of companies are bankrupt. A PR-AUC score of 0.456 is significantly higher than 0.03!
+We have evidence that our XGBoost model performs reasonably well at predicting bankrupt companies.  For context, the baseline precision for a model that predicts randomly is about 0.03 since about 3% of companies are bankrupt. A PR-AUC score of 0.456 is about 16 times higher than 0.03! Therefore, XGBoost predicts 16 times better than the baseline precision!
 
-
-
+PR-AUC score measures the trade-off between Precision (of all firms we called bankrupt, how many were ACTUALLY bankrupt?) and Recall (of all the firms that actually went bankrupt, how many did we CATCH?) across different decision thresholds.
 
 
 ### The Human Element:
