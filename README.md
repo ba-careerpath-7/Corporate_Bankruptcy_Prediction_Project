@@ -48,11 +48,11 @@ Using 3D PCA plots, I successfully visualized a "Safe Zone" and a "Danger Zone,"
 
 
 
-[insert some 3D PCA plots here]
 
-
+**📊 3D PCA plot of Bankrupt and Healthy Firms, View 1:**
 ![image alt](https://github.com/ba-careerpath-7/Corporate_Bankruptcy_Prediction_Project/blob/c2cb2a6b34e36732b2bf942918c3855550596656/github_bank_1.PNG)
 
+**📊 3D PCA plot of Bankrupt and Healthy Firms, View 1:**
 ![image alt](https://github.com/ba-careerpath-7/Corporate_Bankruptcy_Prediction_Project/blob/c2cb2a6b34e36732b2bf942918c3855550596656/github_bank_2.PNG)
 
 
@@ -90,18 +90,15 @@ There can be a scenario where we have new companies that do not have a bankrupt 
 XGBoost did a good job of predicting bankrupt companies, but it is not perfect. 
 
 
-[Inser bar plot of all classification models]
-
+**📊 Bar plot of 6 classification models' PR-AUC scores:**
 ![image alt](https://github.com/ba-careerpath-7/Corporate_Bankruptcy_Prediction_Project/blob/c2cb2a6b34e36732b2bf942918c3855550596656/github_bank_3.PNG)
 
 
-[insert the confusion matrix plot]
-
+**📊 Confusion Matrix of XGBoost's results:**
 ![image alt](https://github.com/ba-careerpath-7/Corporate_Bankruptcy_Prediction_Project/blob/c2cb2a6b34e36732b2bf942918c3855550596656/github_bank_4.PNG)
 
 
-[insert pr auc plot]
-
+**📊 PR-AUC plot of XGBoost and baseline value:**
 ![image alt](https://github.com/ba-careerpath-7/Corporate_Bankruptcy_Prediction_Project/blob/c2cb2a6b34e36732b2bf942918c3855550596656/github_bank_5.PNG)
 
 
