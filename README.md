@@ -133,6 +133,21 @@ Precision is Low: They end up stopping 50 innocent people for every 1 actual cat
 
 * If someone wants the most optimal PR-AUC score, they should select the area or tip of curve that is near the top right. This contains the best combination of precision and recall values!
 
+
+## How to read the Precision Recall Curve
+
+A high curve in the top right part of the plot implies that there is both high precision and recall. This results in a bigger shaded area. We want models that have big areas since the area represents the PR-AUC score.
+
+Conversely, a low curve in the bottom left part of the plot implies that there is both low precision and recall. This results in a lower shaded area.
+
+Since the PR-AUC score was 0.456, it makes sense that we do not see a high or low curve.
+
+We have evidence that our XGBoost model performs reasonably well at predicting bankrupt companies.  For context, the baseline precision for a model that predicts randomly is about 0.03 since about 3% of companies are bankrupt. A PR-AUC score of 0.456 is significantly higher than 0.03!
+
+
+
+
+
 ### The Human Element:
 Real-world bankruptcy is often driven by qualitative shifts (like the Blockbuster/Netflix case) that tabular data cannot see. A truly robust strategy must combine Machine Learning with Contextual Analysis.
 
