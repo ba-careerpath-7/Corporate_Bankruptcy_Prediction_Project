@@ -102,6 +102,36 @@ XGBoost has the bigges PR-AUC score.
 **📊 PR-AUC plot of XGBoost and baseline value:**
 ![image alt](https://github.com/ba-careerpath-7/Corporate_Bankruptcy_Prediction_Project/blob/c2cb2a6b34e36732b2bf942918c3855550596656/github_bank_5.PNG)
 
+---
+## ❗ PR-AUC Score Summary
+
+PR-AUC score measures the trade-off between Precision (of all firms we called bankrupt, how many were ACTUALLY bankrupt?) and Recall (of all the firms that actually went bankrupt, how many did we CATCH?) across different decision thresholds.
+
+PR-AUC scores gives scenarios were if the Precision value is high, then the Recall value will be low.
+
+### PR-AUC intuition:
+
+**Think of it like a Security Checkpoint at an airport:** 
+
+1. High Precision (The "Super Strict" Setting)
+
+The security team only stops someone if they are certain they have a prohibited item.
+
+Precision is High: When they stop someone, they are right 100% of the time. No innocent people are delayed.
+
+Recall is Low: Because they are being so picky they might miss a few clever people who hid items well. They did not catch everyone.
+
+2. High Recall (The "Better Safe than Sorry" Setting)
+
+The security team stops anyone who looks even slightly suspicious, even people wearing bulky jackets.
+
+Recall is High: They catch every single prohibited item. Nothing gets through.
+
+Precision is Low: They end up stopping 50 innocent people for every 1 actual catch. They are "wrong" most of the time when they raise an alarm.
+
+* Anyone who wants to predict bankrupt firms would tend to rely on high recall. No one wants to invest in possible bankrupt companies, why take the risk?
+
+* If someone wants the most optimal PR-AUC score, they should select the area or tip of curve that is near the top right. This contains the best combination of precision and recall values!
 
 ### The Human Element:
 Real-world bankruptcy is often driven by qualitative shifts (like the Blockbuster/Netflix case) that tabular data cannot see. A truly robust strategy must combine Machine Learning with Contextual Analysis.
