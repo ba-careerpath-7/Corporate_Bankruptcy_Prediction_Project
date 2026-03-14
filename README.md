@@ -52,7 +52,7 @@ Using 3D PCA plots, I successfully visualized a "Safe Zone" and a "Danger Zone,"
 **📊 3D PCA plot of Bankrupt and Healthy Firms, View 1:**
 ![image alt](https://github.com/ba-careerpath-7/Corporate_Bankruptcy_Prediction_Project/blob/c2cb2a6b34e36732b2bf942918c3855550596656/github_bank_1.PNG)
 
-**📊 3D PCA plot of Bankrupt and Healthy Firms, View 1:**
+**📊 3D PCA plot of Bankrupt and Healthy Firms, View 2:**
 ![image alt](https://github.com/ba-careerpath-7/Corporate_Bankruptcy_Prediction_Project/blob/c2cb2a6b34e36732b2bf942918c3855550596656/github_bank_2.PNG)
 
 
@@ -93,6 +93,7 @@ XGBoost did a good job of predicting bankrupt companies, but it is not perfect.
 **📊 Bar plot of 6 classification models' PR-AUC scores:**
 ![image alt](https://github.com/ba-careerpath-7/Corporate_Bankruptcy_Prediction_Project/blob/c2cb2a6b34e36732b2bf942918c3855550596656/github_bank_3.PNG)
 
+XGBoost has the bigges PR-AUC score. 
 
 **📊 Confusion Matrix of XGBoost's results:**
 ![image alt](https://github.com/ba-careerpath-7/Corporate_Bankruptcy_Prediction_Project/blob/c2cb2a6b34e36732b2bf942918c3855550596656/github_bank_4.PNG)
