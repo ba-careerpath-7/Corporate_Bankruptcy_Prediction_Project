@@ -3,7 +3,7 @@
 
 
 --- 
-## 🌈 Table of Contents for this Project:
+## 📋 Table of Contents for this Project:
 
 ![image alt](https://github.com/ba-careerpath-7/Corporate_Bankruptcy_Prediction_Project/blob/b19cf0c2778bc723d829530e6ee169c535b824ed/github_bank_table_content.PNG)
 
